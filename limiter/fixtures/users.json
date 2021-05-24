@@ -1,0 +1,42 @@
+[
+  {
+    "pk": 1,
+    "model": "limiter.users",
+    "fields": {
+      "user_name": "John",
+      "weight": 1
+    }
+  },
+  {
+    "pk": 2,
+    "model": "limiter.users",
+    "fields": {
+      "user_name": "Denzel",
+      "weight": 4
+    }
+  },
+  {
+    "pk": 3,
+    "model": "limiter.users",
+    "fields": {
+      "user_name": "Eliot",
+      "weight": 1
+    }
+  },
+  {
+    "pk": 4,
+    "model": "limiter.users",
+    "fields": {
+      "user_name": "Alan",
+      "weight": 3
+    }
+  },
+  {
+    "pk": 5,
+    "model": "limiter.users",
+    "fields": {
+      "user_name": "Sara",
+      "weight": 2
+    }
+  }
+]
