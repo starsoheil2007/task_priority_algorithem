@@ -4,10 +4,7 @@ from limiter.models import *
 
 
 class Command(BaseCommand):
-    help = "This ... "
-    one_path = []
-    count = 0
-    before_informed_no_process = False
+    help = "This command is for handle process"
 
     def handle(self, *args, **options):
         while True:
@@ -41,7 +38,7 @@ class Command(BaseCommand):
                     # Pick check priority of most most priority process with running task
                     limited_f(most_priority_process)
                     self.stdout.write(self.style.SUCCESS("We started Task No {} for user {} ".format(most_priority_process.pk, most_priority_process.user.pk)))
-            time.sleep(10)
+            time.sleep(1)
 
 
 def pick_most_priority_process(all_process):
